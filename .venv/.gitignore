@@ -1,0 +1,17 @@
+# --- Hassas Bilgiler ---
+*.env
+
+# --- Sanal Ortamlar ---
+venv/
+.venv/
+
+# --- Derleme ve Geçici Dosyalar ---
+__pycache__/
+*.pyc
+
+# --- Loglar ve Çalışma Çıktıları ---
+logs/
+
+# --- Python Paket Yöneticisi Çıktıları (Sizin yapınız için) ---
+uv.lock
+pyproject.toml
